@@ -81,7 +81,7 @@ def main(argv=None):
         help='Install KernelSpec in this prefix',
         default=None
     )
-    prefix_locations.add_argument(
+    parser.add_argument(
         '--powershell-command',
         help='Command to run powershell (by default "powershell" on windows and "pwsh" on unix)',
         default=None
